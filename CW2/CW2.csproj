@@ -41,11 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Czesc1\Sluchacz.cs" />
+    <Compile Include="Czesc1\TimeEventArgs.cs" />
+    <Compile Include="Czesc2\Asynchroniczna.cs" />
+    <Compile Include="Czesc2\DlugotrwalaOpercja.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Czesc1\Zegar.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
